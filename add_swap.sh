@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # 设置swap大小，单位为MB
-SWAP_SIZE=2048
+SWAP_SIZE=4096
 
 # 检查是否已经存在swap文件
 if swapon --show | grep -q "/swapfile"; then
